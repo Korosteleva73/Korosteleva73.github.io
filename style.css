@@ -1,0 +1,128 @@
+.bottom {
+	position: fixed;
+    left: 0;
+	bottom: 0; 
+    font-family: Arial;
+    font-family: Oxygen Mono;
+    color: #000; 
+    width: 100%;
+	font-size: 1em;
+	background-color: #D27DFA;
+	text-align: center-left;
+}
+
+.mainMenu {
+	position: fixed;
+    left: 0;
+	top: 0; 
+	width: 100%;
+	background-color: #D27DFA; 
+}
+
+#navbar {
+    margin-top: 6em;
+	margin-left: 5%;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid black;
+	width: 90%;
+	text-align: center;
+	background-color: #FFF;
+}
+
+#navbar li { 
+	display: inline;
+ }
+ 
+#navbar a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 33%;
+	font-size: 2em;
+}
+
+#navbar a:hover {
+    background-color: #CFCFCF;
+}
+
+#logo{
+    margin-top: 10em;
+    width: 10em;
+    float: right;
+}
+
+#info {
+    margin-top: 0em;
+    float: right;
+    font-family: Arial;
+	font-family: Monotype Corsiva;
+	font-weight: bold;
+	font-size: 4em;
+	text-align: center;
+}
+
+#mytable {
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+
+#mytable thead {
+	background-color: #D27DFA;
+	color: #fff;
+}
+
+#mytable tr {
+	width: 30%;
+	font-size: 2em;
+	height: 2em;
+}
+
+#myform {
+	float: right;	
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	 
+}
+#myform h1{
+	text-align: center;
+	background-color: #D27DFA;
+	color: #fff;
+}
+
+#myform label {
+	text-align: left;
+	font-size: 2em;
+	width: 100%;
+}
+
+#myform input {
+	text-align: left;
+	height: 2em;
+	font-size: 1em;
+	margin-top: 5%;
+	width: 100%;
+}
+#myform select {
+	text-align: left;
+	margin-right: 60%;
+	margin-top: 5%;
+	width: 40%;
+	height: 3em;
+	background-color: #D27DFA;
+	color: #fff;
+}
+
+#myform button {
+	text-align: center;
+	font-size: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	width: 60%;
+	background-color: #D27DFA;
+	color: #fff;
+}
